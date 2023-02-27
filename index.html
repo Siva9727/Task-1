@@ -31,18 +31,42 @@
         <div class="login">
           <h1>Login</h1>
           <div class="credential">
-            <div class="user">
-              <i class="fa-regular fa-envelope icon"></i>
-              <input class="user-name" type="text" placeholder="Username" />
-            </div>
-            <div class="pass">
-              <i class="fa-solid fa-key icon"></i>
-              <input type="password" name="Password" placeholder="Password" />
-            </div>
-            <button class="btn">Login</button>
+            <form action="" id="login-form">
+              <div class="user">
+                <label for="username"
+                  ><i class="fa-regular fa-envelope icon"></i
+                ></label>
+
+                <input
+                  class="user-name"
+                  type="text"
+                  placeholder="Username"
+                  id="username"
+                  required
+                />
+              </div>
+              <div class="pass">
+                <label for="pass-word"
+                  ><i class="fa-solid fa-key icon"></i
+                ></label>
+
+                <input
+                  type="password"
+                  name="Password"
+                  placeholder="Password"
+                  id="pass-word"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn">Login</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
+
+
+    <!-- js added -->
+    <script src="script.js"></script>
   </body>
 </html>
