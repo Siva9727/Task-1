@@ -31,6 +31,8 @@ body {
 }
 .left img {
   width: 30%;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -73,6 +75,15 @@ input {
   outline: none;
   /* border-bottom: 1px solid #888; */
 }
+.user-name{
+    background-color: #daf4ff;
+}
+
+input::placeholder{
+    padding: 5px;
+}
+
+
 input:focus {
   /* border-bottom: 1px solid #1D95CF; */
 }
