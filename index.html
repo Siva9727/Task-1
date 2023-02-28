@@ -32,7 +32,7 @@
           <h1>Login</h1>
           <div class="credential">
             <form action="" id="login-form">
-              <div class="user">
+              <div class="user" id="user-input">
                 <label for="username"
                   ><i class="fa-regular fa-envelope icon"></i
                 ></label>
@@ -45,7 +45,7 @@
                   required
                 />
               </div>
-              <div class="pass">
+              <div class="pass" id="pass-input">
                 <label for="pass-word"
                   ><i class="fa-solid fa-key icon"></i
                 ></label>
@@ -58,6 +58,7 @@
                   required
                 />
               </div>
+              <p id="error-msg">*invalid username or password.</p>
               <button type="submit" class="btn">Login</button>
             </form>
           </div>
