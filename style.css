@@ -82,6 +82,8 @@ h1 {
   margin-right: 10px;
   font-size: 20px;
 }
+
+
 input {
   border: none;
   background-color: #daf4ff;
@@ -104,13 +106,6 @@ input::placeholder{
   border-bottom: 1px solid #D9D9D9;
   padding-bottom: 8px;
 }
-
-
-.user:focus,
-.pass:focus {
-  border-bottom: 1px solid #1d95cf;
-}
-
 
 .pass {
   display: flex;
