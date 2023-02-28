@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: row;
   height: 100vh;
+  justify-content: center;
 }
 .left {
   flex: 1;
@@ -31,7 +32,6 @@ body {
 }
 .left img {
   max-width: 50%;
-
   height: 35%;
 }
 
@@ -141,4 +141,12 @@ button:hover{
   color: rgb(240, 27, 27);
   font-weight: lighter;
   font-size: 13px;
+}
+
+/* media queries */
+@media (max-width:800px){
+  .left img{
+    width: 100%;
+    height: auto;
+  }
 }
