@@ -139,10 +139,8 @@ button:hover{
 }
 
 /* media queries */
-/* @media (max-width:800px){
-  .left img{
-    width: 100%;
-    height: auto;
-    overflow: auto;
+@media (max-width: 330px) {
+  .left img {
+    max-width: 330px; /* Set the maximum width of the image to 330px */
   }
-} */
+}
