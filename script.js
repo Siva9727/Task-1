@@ -9,7 +9,9 @@ form.addEventListener('submit',function(event){
 
     if (username === 'admin' && password === 'nintriva') {
       alert('Login successful!');
+
       // Redirect to the logged-in page
+      
     } else {
       let error = document.getElementById('error-msg');
       error.style.display = "block";
@@ -27,6 +29,7 @@ user.addEventListener('click', ()=>{
     user.style.borderBottom = "";
   },100);
 });
+
 
 password.addEventListener('click', ()=>{
   password.style.borderBottom = "1px solid #1d95cf";
